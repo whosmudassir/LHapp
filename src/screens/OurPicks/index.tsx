@@ -1,10 +1,10 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-export default function CardItem({item}) {
+export default function OurPicks() {
   return (
     <View>
-      <Text>..{item.name}..</Text>
+      <Text>Our picks screen</Text>
     </View>
   );
 }
